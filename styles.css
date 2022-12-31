@@ -1,0 +1,50 @@
+@media screen and (max-width: 1440px) {
+
+
+}
+
+@font-face {
+    font-family: outfit-thin;
+    src: url(fonts/Outfit-VariableFont_wght.ttf);
+}
+
+body {
+    width: 1440;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.white-box {
+    border-radius: 10px;
+    display: block;
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    width: 250px;
+    height: 400px;
+}
+
+.white-box img {
+
+    margin: 20px;
+}
+
+.white-box h2 {
+    font-weight: 700;
+    font-size: 20px;
+    margin: 10px;
+    font-family: outfit-thin;
+    color: hsl(218, 44%, 22%);
+}
+
+.white-box p {
+    margin: 10px;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    font-size: 15px;
+    font-family: outfit-thin;
+}
