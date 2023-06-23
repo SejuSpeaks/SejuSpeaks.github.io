@@ -6,10 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="./styles.css">
 
-  <title>Frontend Mentor | QR code component</title>
+  <title>Frontend Mentor | Calculator app</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -21,27 +20,64 @@
     .attribution a {
       color: hsl(228, 45%, 44%);
     }
-
   </style>
 </head>
 
 <body>
-  <div class="container">
-  <div class="white-box">
-    <img src="images/image-qr-code.png" alt="qr-code" height="200px" width="200px">
 
-    <h2 id="bold">Improve your front-end <br> skills by building projects</h2>
+  <div class="calculator">
 
-    <p>Scan the QR code to visit Frontend <br> Mentor and take your coding skills to <br>the next level</p>
+    <div class="display">
+
+    <span class="number">0</span>
+
+    </div>
+
+    <div class="number-pad">
+
+      <!-- <div class="keys"> -->
+
+      <div class="first-row">
+        <div class="key"><button>7</button></div>
+        <div class="key"><button>8</button></div>
+        <div class="key"><button>9</button></div>
+        <div class="key"><button id="del">DEL</button></div>
+      </div>
+
+
+      <div class="second-row">
+        <div class="key"><button>4</button></div>
+        <div class="key"><button>5</button></div>
+        <div class="key"><button>6</button></div>
+        <div class="key"><button>+</button></div>
+      </div>
+
+      <div class="third-row">
+        <div class="key"><button>1</button></div>
+        <div class="key"><button>2</button></div>
+        <div class="key"><button>3</button></div>
+        <div class="key"><button>-</button></div>
+      </div>
+
+      <div class="fourth-row">
+        <div class="key"><button>.</button></div>
+        <div class="key"><button>0</button></div>
+        <div class="key"><button>/</button></div>
+        <div class="key"><button>X</button></div>
+      </div>
+
+      <div class="last-row">
+        <div class="equation-button"><button id="reset">RESET</button></div>
+        <div class="equation-button"><button id="equals">=</button></div>
+      </div>
+      <!-- </div> -->
+    </div>
+
 
   </div>
-  </div>
 
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+
 </body>
 
 </html>
